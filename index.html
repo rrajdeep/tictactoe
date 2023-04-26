@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>Hello user</div>
+    <div class="symbol">
+        Your symbol : <span id="symbol">waiting...</span>
+    </div>
+    <br>
+    <div class="board">
+        <button type="button" class="cell" id="a0"></button>
+        <button type="button" class="cell" id="a1"></button>
+        <button type="button" class="cell" id="a2"></button>
+        <button type="button" class="cell" id="b0"></button>
+        <button type="button" class="cell" id="b1"></button>
+        <button type="button" class="cell" id="b2"></button>
+        <button type="button" class="cell" id="c0"></button>
+        <button type="button" class="cell" id="c1"></button>
+        <button type="button" class="cell" id="c2"></button>
+    </div>
+    <div id="info" style="clear: left;">Waiting for other player to join...</div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
